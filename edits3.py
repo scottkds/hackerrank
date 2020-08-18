@@ -15,8 +15,8 @@ def checkedits(word1, word2):
     loop = True
 
     while loop:
+
         # Get next element from word1 and word2
-        
         w1 = get_index(word1, idx1)
         w2 = get_index(word2, idx2)
 
