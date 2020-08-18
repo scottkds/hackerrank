@@ -36,8 +36,11 @@ def checkedits(word1, word2):
                 idx2 += 1
 
 
-        if w1 is None and w2 is None:
+        if state > 1:
             loop = False
+        elif w1 is None and w2 is None:
+            loop = False
+
 
         idx1 += 1
         idx2 += 1
